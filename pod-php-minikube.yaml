@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: php-pod-dec
+spec:
+  containers:
+    - name: php-dec
+      image: php:8.0.7-fpm-alpine3.13
